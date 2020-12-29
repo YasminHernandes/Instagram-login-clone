@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+body {
+    width: 100%;
+    min-height:100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center; 
+    background-color: #fdfdfd;
+}
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 89vh;
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 20px 0;
+}
+
+ .instagram-phone img {
+    height: 47rem;
+    margin-top: 70px;
+}
+
+.content-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 45%;
+    min-height: 34rem;
+    margin-top: 30px;
+}
+
+
+.group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    width: 100%;
+    padding: 2.4rem 0;
+    margin: 5px 0;
+}
+
+.group:nth-child(1) {
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+.instagram-logo {
+    height: 4rem;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.sign-in {
+    width: 100%;
+    padding: 1.4rem 3rem .2rem;
+}
+
+.form-sign-in {
+    display: inline-grid;
+}
+
+input {
+    width: 22rem;
+    height: 3rem;
+    padding: 9px 0 10px 8px;
+    margin-bottom: 6px;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+    background-color: #fafafa;
+    font-size: 11px;
+}
+
+.field:focus {
+    border: 1px solid #bfbfbf;
+}
+
+.button-sign-in {
+    height: 2.3rem;
+    margin: 10px 0;
+    background-color: #b2dffc;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.line-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8e8e8e;
+}
+
+.line {
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100%;
+    margin: 0;
+}
+
+.line hr {
+    border: 1px solid ;
+    color: #dddddd;
+}
+
+.or {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+.sign-in-facebook {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.sign-in-facebook a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #385185;
+}
+
+.facebook-icon {
+    width: 20px;
+    margin: 20px 5px;
+}
+
+.forgot-password {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forgot-password a {
+    color: #00376b;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.group:nth-child(2) {
+    padding: 1.5rem;
+}
+
+.no-account a {
+    color: #0095f6;
+    font-weight: 600;
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download-app {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('../img/apple-button.png');
+}
+
+.app-download:nth-child(2) {
+    background-image: url('../img/googleplay-button.png');
+}
+
+@media (max-width: 1024px) {
+    .instagram-wrapper {
+        width: 100%;
+    }
+
+    .content-principal {
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 875px) and (min-width: 500px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-logo {
+        height: 3.5rem;
+    }
+   
+    .content-principal {
+        width: 100%;
+    }
+    
+    .group {
+        border: 1px solid #dddddd;
+    }
+}
