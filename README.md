@@ -1,13 +1,19 @@
 # Bem-vindo!
 
+![](C:\workspace\html-web-dev-DIO\codes\screenshots\image-readme-instagram.jpg)
+
+
+
 Conteúdo prático do curso de HTML Web Developer da DIO (Digital Innovation One).
 
-Aqui você irá encontrar uma pasta denominada instagram que contém uma réplica  (HTML) da página inicial do instagram. 
+Nesse repositório você irá encontrar duas pastas denominadas instagram-form e instagram.
 
-Também encontrará uma outra pasta denominada instagram-form com uma réplica da página de login do instagram. 
+A pasta instagram-form contém os arquivos HTML, CSS e as imagens utilizadas no desenvolvimento da página de formulário de login do instagram. (imagem à direita).
 
+A pasta instagram contém também os arquivos HTML, CSS e imagens utilizadas no desenvolvimento da página de login - Continue como [usuário] - do instagram. (imagem à esquerda).
 
+##### Os conteúdos apresentados não possuem nenhuma restrição de uso.
 
-Explore, aprenda e divirta-se!
+##### Explore, aprenda e divirta-se!
 
 
