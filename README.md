@@ -1,6 +1,6 @@
 # Bem-vindo!
 
-![](C:\workspace\html-web-dev-DIO\codes\screenshots\image-readme-instagram.jpg)
+![]("C:\workspace\html-web-dev-DIO\screenshots\image-readme-instagram.jpg")
 
 
 
