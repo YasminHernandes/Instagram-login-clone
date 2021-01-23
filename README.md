@@ -1,4 +1,4 @@
-# Bem-vindo ao meu primeiro repositório :blush:!
+# Bem-vindo ao meu primeiro repositório! :blush:
 
 ![screenshot-pages](https://github.com/YasminHernandes/html-web-developer/blob/master/screenshots/screenshot-pages.jpg?raw=true)
 
