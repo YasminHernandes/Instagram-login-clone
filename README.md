@@ -17,4 +17,4 @@ A pasta instagram contém também os arquivos HTML, CSS e imagens utilizadas no 
 
 
 #### Tópicos que serão consertados/modificados em breve:
-- Resposividade
+- Responsividade
